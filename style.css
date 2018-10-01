@@ -1,0 +1,168 @@
+* {
+  font-family: sans-serif;
+}
+
+
+section {
+  display: flex;
+  height: 110%;
+  width: 65%;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  margin-top: 5em;
+  padding: 20px;
+}
+
+.container {
+  height: 25em;
+  width: 40em;
+  background-color: white;
+  padding: 10px;
+}
+
+.post {
+  height: 5em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.post-header {
+  display: flex;
+}
+
+.post-header img {
+  height: 100%;
+  width: 80px;
+  border-radius: 50%;
+}
+
+.name-date {
+  margin-left: 0.5em;
+}
+
+.name-date p a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.name-date p a:hover {
+  text-decoration: underline;
+}
+
+.menu {
+  display: flex;
+}
+
+.circle {
+  background-color: grey;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  margin-left: 4px;
+  margin-top: 8px;
+}
+
+.post-info {
+  height: 16em;
+  display: flex;
+  flex-direction: column;
+}
+
+.post-info p {
+  font-size: 36px;
+  margin: 0.5em 0;
+}
+
+.reacts {
+  display: flex;
+  align-items: center;
+}
+
+.reacts img {
+  height: 30px;
+  width: 30px;
+}
+
+.reacts p {
+  margin: 0 0;
+  margin-top: 0.5em;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.actions {
+  height: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1em;
+}
+
+.likes {
+  display: flex;
+  align-items: center;
+}
+
+.likes p {
+  margin: 0 0;
+  font-size: 26px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-top: 10px;
+}
+
+.comment {
+  display: flex;
+  align-items: center;
+}
+
+.comment img {
+  height: 30px;
+  width: 30px;
+}
+
+.comment p {
+  font-size: 26px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-left: 0.5em;
+}
+
+.share {
+  display: flex;
+}
+
+.share img {
+  height: 45px;
+  width: 45px;
+}
+
+.share p {
+  font-size: 26px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.reply {
+  display: flex;
+  align-items: center;
+}
+
+.reply img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-left: 1em;
+}
+
+.reply input {
+  margin-left: 1em;
+  border-radius: 25px;
+  height: 2em;
+  width: 75%;
+  background-color: rgba(0, 0, 0, 0.05)
+}
+
+.likes:hover, .comment:hover, .share:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
